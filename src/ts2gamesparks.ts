@@ -5,7 +5,7 @@ import * as mkdirp from "mkdirp";
 import * as assert from "assert";
 
 const encoding = "utf8";
-const moduleKeyword = "module_";
+const moduleKeyword = "js";
 
 function getTsConfig() {
 	let file = ts.findConfigFile(process.cwd(), ts.sys.fileExists) as string;

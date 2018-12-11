@@ -1,20 +1,43 @@
 {
-  "name": "ts2gamesparks",
-  "version": "1.0.0",
-  "description": "",
-  "main": "./lib/ts2gamesparks.js",
-  "devDependencies": {
-    "@types/node": "latest",
-    "@types/mkdirp": "latest"
+  "_from": "git+https://github.com/alexhmelnoy/ts2gamesparks.git",
+  "_id": "ts2gamesparks@1.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/ts2gamesparks",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/alexhmelnoy/ts2gamesparks.git",
+    "rawSpec": "git+https://github.com/alexhmelnoy/ts2gamesparks.git",
+    "saveSpec": "git+https://github.com/alexhmelnoy/ts2gamesparks.git",
+    "fetchSpec": "https://github.com/alexhmelnoy/ts2gamesparks.git",
+    "gitCommittish": null
   },
-  "scripts": {},
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "git+https://github.com/alexhmelnoy/ts2gamesparks.git#169cede04f4e3a688f7843363aedba9dfe2e7f5e",
+  "_spec": "git+https://github.com/alexhmelnoy/ts2gamesparks.git",
+  "_where": "..\\server\\gs",
   "author": "",
   "bin": {
     "ts2gs": "./bin/js2gs.js"
   },
-  "license": "ISC",
+  "bundleDependencies": false,
   "dependencies": {
-    "typescript": "latest",
-    "mkdirp": "latest"
-  }
+    "mkdirp": "latest",
+    "typescript": "latest"
+  },
+  "deprecated": false,
+  "description": "```\r npm install --save-dev git+https://github.com/alexhmelnoy/ts2gamesparks.git\r ```",
+  "devDependencies": {
+    "@types/mkdirp": "latest",
+    "@types/node": "latest"
+  },
+  "license": "ISC",
+  "main": "./lib/ts2gamesparks.js",
+  "name": "ts2gamesparks",
+  "scripts": {},
+  "version": "1.0.0"
 }
